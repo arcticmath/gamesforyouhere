@@ -1,5 +1,5 @@
 Collected Information
-Echolog collects the following information about the user:
+Game Hub collects the following information about the user:
 - IP address
 - Location
 - Hostname
